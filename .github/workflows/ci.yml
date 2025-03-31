@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY_IMAGE: ghcr.io/${{ github.repository }}
+  REGISTRY_IMAGE: ghcr.io/godricbeaumarchais/yuzu-multiplayer-dedicated:latest
 
 jobs:
   build:
