@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY_IMAGE: ghcr.io/godricbeaumarchais/yuzu-multiplayer-dedicated:latest
+  REGISTRY_IMAGE: ghcr.io/godricbeaumarchais/yuzu-multiplayer-dedicated
 
 jobs:
   build:
